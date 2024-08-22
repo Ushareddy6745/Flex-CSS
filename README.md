@@ -1,1 +1,1 @@
-# Flex-CSS
+A web page created using Flex concepts.
