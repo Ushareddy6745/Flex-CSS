@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: karma;
+    
+}
+
+
+        nav{
+            background-color: white;
+            height: 50px;
+            position: fixed;
+            width: 100%;
+            top: 0%;
+            display: flex;
+            justify-content:space-between;
+            z-index: 2;
+        }
+        nav a{
+            padding-top: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            margin-right: 50px;
+
+        }
+
+    .food{
+        display: flex;
+         justify-content: space-between;
+        /* justify-content: space-around; */
+        gap:20px;
+        text-align: center;
+    }
+    .img{
+        padding-top: 80px;
+        width:25%;
+    }
+    .number{
+        display: flex;
+        justify-content: center;
+        gap:20px;
+    }
+    .number a{
+        text-decoration: none;
+        margin-bottom:60px;
+        font-size: 20px;
+        margin-top: 80px;
+         padding: 10px; */
+        padding-bottom: 5px; 
+
+    }
+    #num{
+        background-color: black;
+        color: white;
+       
+    }
+     .number a:hover{
+        background-color:black;
+        color: white;
+    }
+    #num:hover{
+        background-color: grey;
+    }
+    .author{
+        
+        justify-content: center;
+        text-align: center;
+        clear: both;
+        margin:80px;
+        padding-bottom:15px;
+    }
+    .author h2{
+        font-weight: 300;
+        padding-bottom: 15px;
+    }
+    .author h6{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .author p{
+        font-size:16px ;
+    }
+    .bottom{
+           display: flex;
+           justify-content: space-around;
+           gap: 50px;
+           margin-left: 100px;
+           margin-right: 100px;
+    }
+
+    .footer h3{
+        font-size:25px;
+        font-weight: 400;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .image {
+      float: left;
+      padding: 12px;
+
+    }
+    .tags{
+        line-height: 30px;
+    }
+    .image:hover{
+        background-color: grey;
+        
+       
+    }
+      .image span{
+        float: right;
+    }
+      
